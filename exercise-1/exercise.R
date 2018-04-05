@@ -36,7 +36,7 @@ items <- lapply(meals, length)
 
 # Write a function `add_pizza` that adds pizza to a given meal vector, and
 # returns the pizza-fied vector
-add_oizza <-function(meal){
+add_pizza <-function(meal){
   meal <- c(meal, "pizza")
   meal
 }
